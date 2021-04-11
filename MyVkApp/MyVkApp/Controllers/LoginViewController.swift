@@ -72,6 +72,11 @@ class LoginViewController: UIViewController {
             let checkResult = checkUserData()
             if !checkResult {
                 showLoginError()
+            } else {
+                let session = Session.instance
+                session.name = "Кирилл"
+                session.id = 1
+                session.token = "someToken"
             }
             return checkResult
         }

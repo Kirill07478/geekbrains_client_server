@@ -429,24 +429,28 @@
             </objects>
             <point key="canvasLocation" x="3480" y="1081"/>
         </scene>
-        <!--View Controller-->
+        <!--User Settings View Controller-->
         <scene sceneID="Udx-tD-izK">
             <objects>
-                <viewController id="kUg-4J-Kkk" sceneMemberID="viewController">
+                <viewController id="kUg-4J-Kkk" customClass="UserSettingsViewController" customModule="MyVkApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X7Q-NO-9Cc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Token для вк" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epL-LQ-0vH">
-                                <rect key="frame" x="157" y="438" width="100" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Token для вк" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="epL-LQ-0vH">
+                                <rect key="frame" x="157" y="437.5" width="100" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khr-WN-tG8">
-                                <rect key="frame" x="179" y="370" width="57" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User ID" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khr-WN-tG8">
+                                <rect key="frame" x="178.5" y="367.5" width="57" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aY-Xt-XfC">
+                                <rect key="frame" x="184.5" y="296.5" width="45" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -454,12 +458,26 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oIu-Q9-cT2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1aY-Xt-XfC" firstAttribute="centerX" secondItem="X7Q-NO-9Cc" secondAttribute="centerX" id="AOn-Tz-YZi"/>
+                            <constraint firstItem="epL-LQ-0vH" firstAttribute="top" secondItem="khr-WN-tG8" secondAttribute="bottom" constant="50" id="JTw-MB-FkH"/>
+                            <constraint firstItem="1aY-Xt-XfC" firstAttribute="centerX" secondItem="X7Q-NO-9Cc" secondAttribute="centerX" id="cgC-Cc-H0U"/>
+                            <constraint firstItem="khr-WN-tG8" firstAttribute="top" secondItem="1aY-Xt-XfC" secondAttribute="bottom" constant="50" id="fr0-Py-7oP"/>
+                            <constraint firstItem="epL-LQ-0vH" firstAttribute="centerX" secondItem="X7Q-NO-9Cc" secondAttribute="centerX" id="pO8-Kl-gZz"/>
+                            <constraint firstItem="khr-WN-tG8" firstAttribute="centerX" secondItem="X7Q-NO-9Cc" secondAttribute="centerX" id="qwH-uf-d9V"/>
+                            <constraint firstItem="epL-LQ-0vH" firstAttribute="centerY" secondItem="X7Q-NO-9Cc" secondAttribute="centerY" id="rTo-JS-4OI"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WFh-R2-YPh"/>
+                    <connections>
+                        <outlet property="idLabel" destination="khr-WN-tG8" id="kbH-iw-r6r"/>
+                        <outlet property="nameLabel" destination="1aY-Xt-XfC" id="acN-bJ-6dE"/>
+                        <outlet property="tokenLabel" destination="epL-LQ-0vH" id="wdm-d8-ZKm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o3a-TE-rhf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3480" y="1754"/>
+            <point key="canvasLocation" x="3479.7101449275365" y="1753.7946428571429"/>
         </scene>
         <!--Search Group View Controller-->
         <scene sceneID="K1N-tV-7Vq">
