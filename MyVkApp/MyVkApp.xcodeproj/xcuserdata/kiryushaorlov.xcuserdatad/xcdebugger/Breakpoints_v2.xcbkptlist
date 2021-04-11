@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0DCBB167-61E4-4512-BC7B-C1FC43D9206F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7665EA1C-5217-455B-982F-FAEFA7A123B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyVkApp/Controllers/NewsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "NewsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7665EA1C-5217-455B-982F-FAEFA7A123B3 - b676dfc8e59d249"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyVkApp.NewsViewController.news.getter : Swift.Array&lt;MyVkApp.News&gt;"
+                  moduleName = "MyVkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiryushaorlov/%D0%9C%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F/%D0%9A%D0%BE%D0%B4%D1%8B/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81%20iOs%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8%CC%86/My%20Client%20For%20Vk/MyVkApp/MyVkApp/Controllers/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "7665EA1C-5217-455B-982F-FAEFA7A123B3 - f5fce7fb4a60160d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyVkApp.NewsViewController.news.setter : Swift.Array&lt;MyVkApp.News&gt;"
+                  moduleName = "MyVkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiryushaorlov/%D0%9C%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F/%D0%9A%D0%BE%D0%B4%D1%8B/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81%20iOs%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8%CC%86/My%20Client%20For%20Vk/MyVkApp/MyVkApp/Controllers/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "7665EA1C-5217-455B-982F-FAEFA7A123B3 - badee99025b2b3e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyVkApp.NewsViewController.news.modify : Swift.Array&lt;MyVkApp.News&gt;"
+                  moduleName = "MyVkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiryushaorlov/%D0%9C%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F/%D0%9A%D0%BE%D0%B4%D1%8B/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81%20iOs%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8%CC%86/My%20Client%20For%20Vk/MyVkApp/MyVkApp/Controllers/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "7665EA1C-5217-455B-982F-FAEFA7A123B3 - b99d50dab19573a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyVkApp.NewsViewController.news.modify : Swift.Array&lt;MyVkApp.News&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MyVkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiryushaorlov/%D0%9C%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F/%D0%9A%D0%BE%D0%B4%D1%8B/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81%20iOs%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8%CC%86/My%20Client%20For%20Vk/MyVkApp/MyVkApp/Controllers/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "7665EA1C-5217-455B-982F-FAEFA7A123B3 - 1bd3484ff231825c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyVkApp.NewsViewController.init(style: __C.UITableViewStyle) -&gt; MyVkApp.NewsViewController"
+                  moduleName = "MyVkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiryushaorlov/%D0%9C%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F/%D0%9A%D0%BE%D0%B4%D1%8B/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81%20iOs%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8%CC%86/My%20Client%20For%20Vk/MyVkApp/MyVkApp/Controllers/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "7665EA1C-5217-455B-982F-FAEFA7A123B3 - 77908935b5ff7e8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyVkApp.NewsViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MyVkApp.NewsViewController"
+                  moduleName = "MyVkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiryushaorlov/%D0%9C%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F/%D0%9A%D0%BE%D0%B4%D1%8B/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81%20iOs%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8%CC%86/My%20Client%20For%20Vk/MyVkApp/MyVkApp/Controllers/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "7665EA1C-5217-455B-982F-FAEFA7A123B3 - 4fff1dbee50fdbdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyVkApp.NewsViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MyVkApp.NewsViewController&gt;"
+                  moduleName = "MyVkApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kiryushaorlov/%D0%9C%D0%BE%D0%B8%CC%86%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F/%D0%9A%D0%BE%D0%B4%D1%8B/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B8%CC%86%D1%81%20iOs%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B8%CC%86/My%20Client%20For%20Vk/MyVkApp/MyVkApp/Controllers/NewsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE4825B1-105A-4FDB-AB4D-E8A0C3D7617F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyVkApp/Controllers/NewsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29107E87-BDDD-496F-981E-698855F91276"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyVkApp/Controllers/NewsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC855117-D68D-42A1-BB5E-8E7540CC0C43"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyVkApp/Controllers/FriendsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "FriendsViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
