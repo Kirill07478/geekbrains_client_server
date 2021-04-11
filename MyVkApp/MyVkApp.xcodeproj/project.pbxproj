@@ -22,6 +22,8 @@
 		B13B6FF42617B42E004504B5 /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13B6FF32617B42E004504B5 /* LikeView.swift */; };
 		B13B6FF92617B452004504B5 /* LikeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B13B6FF82617B452004504B5 /* LikeView.xib */; };
 		B19E8BFD25F6F83F00D52E9E /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19E8BFC25F6F83F00D52E9E /* AvatarView.swift */; };
+		B19ECD112623248A007E3593 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19ECD102623248A007E3593 /* Session.swift */; };
+		B19ECD1626232511007E3593 /* UserSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19ECD1526232511007E3593 /* UserSettingsViewController.swift */; };
 		B1F51CBA260259C000F10EDF /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F51CB8260259C000F10EDF /* GroupCell.swift */; };
 		B1F51CBB260259C000F10EDF /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1F51CB9260259C000F10EDF /* GroupCell.xib */; };
 		B1F79CE7260AAB6400AF616F /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F79CE6260AAB6400AF616F /* CustomHeaderView.swift */; };
@@ -76,6 +78,8 @@
 		B13B6FF32617B42E004504B5 /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
 		B13B6FF82617B452004504B5 /* LikeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeView.xib; sourceTree = "<group>"; };
 		B19E8BFC25F6F83F00D52E9E /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		B19ECD102623248A007E3593 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		B19ECD1526232511007E3593 /* UserSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsViewController.swift; sourceTree = "<group>"; };
 		B1F51CB8260259C000F10EDF /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		B1F51CB9260259C000F10EDF /* GroupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupCell.xib; sourceTree = "<group>"; };
 		B1F79CE6260AAB6400AF616F /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 		B11FF30225DD63A400042CF1 /* MyVkApp */ = {
 			isa = PBXGroup;
 			children = (
+				B19ECD092623246C007E3593 /* Application Architecture */,
 				B11FF31125DD63A500042CF1 /* Info.plist */,
 				B1FB542825EC7C1F00652A33 /* App */,
 				B1FB545D25ECF81900652A33 /* Models */,
@@ -178,6 +183,14 @@
 			path = Custom;
 			sourceTree = "<group>";
 		};
+		B19ECD092623246C007E3593 /* Application Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				B19ECD102623248A007E3593 /* Session.swift */,
+			);
+			path = "Application Architecture";
+			sourceTree = "<group>";
+		};
 		B1F79CE5260AAAF600AF616F /* Headers and Footers */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +209,7 @@
 				B1FB540425EBCEB400652A33 /* FriendsViewController.swift */,
 				B1FB542225EC797800652A33 /* FriendsPhotosViewController.swift */,
 				B13B6FE22616BFD1004504B5 /* NewsViewController.swift */,
+				B19ECD1526232511007E3593 /* UserSettingsViewController.swift */,
 				B1F79CE5260AAAF600AF616F /* Headers and Footers */,
 				B1FB543025EC8A1B00652A33 /* Cells */,
 			);
@@ -386,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19ECD112623248A007E3593 /* Session.swift in Sources */,
 				B1F79CE7260AAB6400AF616F /* CustomHeaderView.swift in Sources */,
 				B11FF33725DD63D100042CF1 /* LoginViewController.swift in Sources */,
 				B1FB540F25EC749A00652A33 /* MyGroupsViewController.swift in Sources */,
@@ -401,6 +416,7 @@
 				B1FB540A25EC745700652A33 /* SearchGroupViewController.swift in Sources */,
 				B11FF30625DD63A400042CF1 /* SceneDelegate.swift in Sources */,
 				B13B6FD52616B64E004504B5 /* NewsCell.swift in Sources */,
+				B19ECD1626232511007E3593 /* UserSettingsViewController.swift in Sources */,
 				B1FB546725F06ACC00652A33 /* Group.swift in Sources */,
 				B13B6FF42617B42E004504B5 /* LikeView.swift in Sources */,
 				B1FB542325EC797800652A33 /* FriendsPhotosViewController.swift in Sources */,
